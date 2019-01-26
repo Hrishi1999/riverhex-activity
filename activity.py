@@ -18,6 +18,9 @@
 
 import sys, os, platform
 
+import gi
+gi.require_version('Gtk', '3.0')
+gi.require_version('Vte', '2.91')
 from gi.repository import Gtk
 from gi.repository import Vte
 from gi.repository import GLib
